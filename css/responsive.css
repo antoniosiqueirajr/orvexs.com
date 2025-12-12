@@ -1,0 +1,115 @@
+/*    iPad and mini pc 1200px+. */
+
+@media only screen and (max-width: 1200px) {
+
+body.alioy__body.alioy__about_active .alioy__appear-content {
+    position: relative;
+    width: 100%;
+    max-height: 100vh;
+}
+body.alioy__body.alioy__about_active .alioy__about-us {
+  transform: translateX(0);
+  width: 100%;
+  position: relative;
+  z-index: 90;
+}
+body.alioy__body .alioy__about-us {
+    position: relative;
+    width: 100%;
+    transform: translate(0);
+    z-index: 90;
+}
+.alioy__body .alioy__appear-content {
+  max-height: 100vh;
+  position: relative;
+  transform: translateX(0);
+  width: 100%;
+  height: 100vh;
+  /* display: block; */
+  left: inherit;
+  top: inherit;
+}
+.alioy__content {
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+.content {
+  position: fixed;
+}
+.alioy__copyright, .alioy__social-links {
+  position: relative;
+  width: 50%;
+  float: left;
+  right: inherit;
+  left: inherit;
+  bottom: inherit;
+  transform: none;
+  display: block;
+}
+.alioy__main-content {
+  position: relative;
+}
+.alioy__main-footer {
+  width: 100%;
+  position: relative;
+  background-color: #333333;
+  overflow: hidden;
+  z-index: 4;
+  padding: 40px 50px 25px;
+}
+ul.alioy__social-links {
+  text-align: right;
+}
+.alioy__content-subtitle {
+  margin-right: 50px;
+}
+.alioy__appear-content {
+  min-width: 100%;
+  width: 100%;
+}
+
+
+}
+
+
+
+/*    Wide Mobile Layout: 480px+. */
+
+@media only screen and (max-width: 767px) {
+
+.alioy__gallery-item {
+  width: 100%;
+  float: none;
+}
+.alioy__the_content {
+  padding: 40px 25px 20px;
+}
+.alioy__copyright, 
+.alioy__social-links {
+  width: 100%;
+  float: none;
+  text-align: center !important;
+}
+.alioy__default-inner {
+  width: 90%;
+}
+.alioy__inner-content-container {
+    max-width: 80%;
+}
+
+}
+
+
+
+
+
+/*    Mobile Layout: 479px. */
+
+@media only screen and (max-width: 479px) {
+
+
+
+}
+
+
