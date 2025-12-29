@@ -13,7 +13,7 @@
             <h1 class="text-3xl font-bold text-gray-800 mb-2">Bem-vindo ao Portal Orvexs</h1>
             <p class="text-gray-500">Acesse sua conta para continuar</p>
         </div>
-        <form method="POST" action="https://sogo.seudominio.com/SOGo/connect" class="space-y-6">
+        <form method="POST" action="https://webmail.orvexs.com/SOGo/" class="space-y-6">
             <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <div>
                 <label for="user" class="block text-sm font-medium text-gray-700">E-mail</label>
